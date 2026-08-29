@@ -26,14 +26,14 @@ int maior(int *v, int n, int *p){
 }
 
 int main() {
-    int *v = (int*) malloc(10 * sizeof(int));
+    int *v = (int*) malloc(100 * sizeof(int));
     int posicao = 0;
 
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < 100; i++) {
         scanf("%d", &v[i]);
     }
 
-    printf("%d\n", maior(v, 10, &posicao));
+    printf("%d\n", maior(v, 100, &posicao));
     printf("%d\n", posicao + 1);
     free(v);
     return 0;
