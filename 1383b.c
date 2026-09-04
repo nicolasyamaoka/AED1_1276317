@@ -2,8 +2,8 @@
 Disciplina  : Algortimo e Estrutura de Dados 2026S1
 Nome        : Nicolas Fenalti Yamaoka
 Linguagem   : C
-Problema    : https://judge.beecrowd.com/pt/problems/view/1080
-Data        : 21/08/2026
+Problema    : https://judge.beecrowd.com/pt/problems/view/1383
+Data        : 28/08/2026
 Objetivo    : Verificar se a matriz corresponde as especificações do Sudoku
 Dificuldade : Verificar repetições de termos nas matrizes 3x3.
 Uso de IA   : Nenhum uso
