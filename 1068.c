@@ -4,7 +4,7 @@ Nome        : Nicolas Fenalti Yamaoka
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1068
 Data        : 28/08/2026
-Objetivo    : Encontrar o maior valor de um vetor
+Objetivo    : Denominar se a ordem dos parênteses está correta
 Dificuldade : Entender que N não era uma entrada
 Uso de IA   : A IA me ajudou na solução de erros bobos, como resetar j, e na problematica de vir um ")" inicialmente
 -------------------------------------------------------------------------- */
