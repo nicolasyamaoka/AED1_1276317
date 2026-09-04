@@ -3,7 +3,7 @@ Disciplina  : Algortimo e Estrutura de Dados 2026S1
 Nome        : Nicolas Fenalti Yamaoka
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1080
-Data        : 21/08/2026
+Data        : 28/08/2026
 Objetivo    : Encontrar o maior valor de um vetor
 Dificuldade : Aplicação de ponteiros
 Uso de IA   : Sem uso
