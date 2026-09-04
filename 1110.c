@@ -3,8 +3,8 @@ Disciplina  : Algortimo e Estrutura de Dados 2026S1
 Nome        : Nicolas Fenalti Yamaoka
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1110
-Data        : 21/08/2026
-Objetivo    : Encontrar o maior valor de um vetor
+Data        : 28/08/2026
+Objetivo    : Definir quais Cartas foram jogadas fora (ordem) e qual sobrou
 Dificuldade : Realizar todo o procedimento, envolvendo desde as camadas de repetição, até repercussão do código
 Uso de IA   : Uso moderado para correção, principalmente no "while(scanf("%d", &n) == 1 && n != 0){" e Preenchendo a lista com os valores de 1 até n
 -------------------------------------------------------------------------- */
