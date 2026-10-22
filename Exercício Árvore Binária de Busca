@@ -9,7 +9,7 @@ typedef struct celula{
 
 typedef celula *arvore;
 
-arvore *criaRaiz(int x){
+arvore criaRaiz(int x){
     celula *novo = malloc(sizeof(celula));
     novo->valor = x;
     novo->esq = NULL;
@@ -44,18 +44,21 @@ void varreArvore(arvore r){
 
 
 int main(){
-    
-    int x;
+    int n, x;
+    printf("Quantos Valores:\n");
+    scanf("%d", &n);
+
+    printf("Insira os valores:\n");
     scanf("%d", &x);
     arvore r = criaRaiz(x);
     
-    for(int i=1; i<5; i++){
+    for(int i=1; i<n; i++){
         
         scanf("%d", &x);
         insereArvore(r , x);    
     }
-    
+
+    printf("Valores da arvore:\n");
     varreArvore(r);
     return 0;
 }
-
