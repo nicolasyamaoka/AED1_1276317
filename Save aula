@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct celula{
+    int valor;
+    struct celula *esq;
+    struct celula *dir;
+} celula;
+
+typedef celula *arvore;
+
+void *criaRaiz(int x){
+    celula *novo = malloc(sizeof(celula));
+    novo->valor = x;
+    novo->esq = NULL;
+    novo->dir = NULL;
+    return novo;
+}
+
+arvore insereArvore(arvore r, int x){
+    if(r == NULL){
+        arvore novo = malloc(sizeof(celula));
+        novo->valor = x;
+        novo->esq = NULL;
+        novo->dir = NULL;
+        return novo;
+    }
+    
+    if(r->valor > x){
+        r->esq = insereArvore(r->esq, x);
+    } else if (r->valor < x){
+        r->dir = insereArvore(r->dir, x);
+    }
+    return r;
+}
+
+void varreArvore(arvore r){
+    if(r != NULL){
+        varreArvore(r->esq);
+        printf("%d\n", r->valor);
+        varreArvore(r->dir);
+    }
+}
+
+
+int main(){
+    
+    int x;
+    scanf("%d", &x);
+    arvore *r = criaRaiz(x);
+    
+    for(int i=1; i<5; i++){
+        
+        scanf("%d", &x);
+        insereArvore(*r , x);    
+    }
+    
+    varreArvore(*r);
+
+    return 0;
+}
+
+
+
